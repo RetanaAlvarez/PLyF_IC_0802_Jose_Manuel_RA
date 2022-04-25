@@ -1,10 +1,18 @@
 public class Principal{
 	public static void main(String[] args) {
+		System.out.println("int");
 		Principal.engine((CalculadoraInt)(x, y) -> x + y);
 		Principal.engine((CalculadoraInt)(x, y) -> x * y);
 		Principal.engine((CalculadoraInt)(x, y) -> x / y);
 		Principal.engine((CalculadoraInt)(x, y) -> x - y);
 		Principal.engine((CalculadoraInt)(x, y) -> x % y);
+
+		System.out.println("\nlong");
+		Principal.engine((CalculadoraLong)(x, y) -> x + y);
+		Principal.engine((CalculadoraLong)(x, y) -> x * y);
+		Principal.engine((CalculadoraLong)(x, y) -> x / y);
+		Principal.engine((CalculadoraLong)(x, y) -> x - y);
+		Principal.engine((CalculadoraLong)(x, y) -> x % y);
 	}
 
 	//Sobrecara de Métodos
