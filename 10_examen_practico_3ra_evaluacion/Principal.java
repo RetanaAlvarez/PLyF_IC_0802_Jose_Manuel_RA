@@ -8,7 +8,7 @@ public class Principal{
 		pe.Operacion_Prueba(int a=10, int No, int No3);
 		Principal.Mi_metodo(pe);
 		Principal.Mi_metodo((int)a,(int)b,(int c)--> System.out.println(a+(b*c)));
-		Principal.pe(int)a,(int)b, (int)c)-->System.out.println(a+(b/c));
+		Principal.pe(int)a,(int)b, (int)c )-->System.out.println(a+(b/c));
 		Principal.Mi_metodo(pe,a=7,b=7,c=8);
 	}
 	private static void Mi_metodo(Object Prueba_Examen){
