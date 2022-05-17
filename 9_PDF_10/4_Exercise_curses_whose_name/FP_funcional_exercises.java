@@ -9,7 +9,7 @@ public class FP_funcional_exercises{
 	}	
 	private static void all(List<String>courses){
 		
-		if(courses<=3)
+		if(courses.equils)
 			System.out.println(courses);
     
 	}	
