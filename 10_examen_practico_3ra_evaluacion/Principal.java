@@ -16,7 +16,7 @@ public class Principal{
 	}
 	private staticvoid Mi_metodo(object Prueba_Examen,int a =6, int b=7,int c=7){
 		Prueba_Examen.Operacion_Prueba(a,Operacion_Prueba(int b,int c),Operacion_Prueba(int a, int b , int c)){
-		
+
 		}
 	}
 }
