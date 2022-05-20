@@ -2,18 +2,13 @@ import java.util.List;
 
 public class FP_funcional_exercises{
 	public static void main(String[] args) {
-		List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
-		FP_funcional_exercises.pares(numbers);
-		System.out.println("");
-		//List<String>courses = List.of("Spring", "Spring Boor", "API","Microservices","AWS", "PCF", "Azure", "Docker", "Kubernetes");
-	}	
-	private static void pares(List<Integer> numbers){
-		for (int number : numbers ) {
-			if (number % 2 == 0) {
-				System.out.print(number + ", ");	
-			}
-		}
-		System.out.println("");
-	}	
+		List<String> courses = List.of("Spring","Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker", "Kubernetes");
+		FP_funcional_exercises.letras(courses);
+		System.out.print("\n");
+	}
 
+	private static void letras(List<String> courses){
+		courses.stream()
+    	.forEach(course -> System.out.println("la palabra: " + course + "\ttiene " +course.length() + " caracteres"));
+	}
 }
